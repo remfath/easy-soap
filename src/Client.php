@@ -10,6 +10,11 @@ class Client
     private $wsdl;
     private $client;
 
+    /**
+     * Client constructor.
+     *
+     * @param $wsdl
+     */
     public function __construct($wsdl)
     {
         $this->wsdl = $wsdl;
