@@ -1,0 +1,21 @@
+{
+    "name": "remfath/easy-soap",
+    "description": "a soap client wrapper",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "remfath",
+            "email": "remfath@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Remfath\\EasySoap\\": "src/"
+        }
+    }
+}
